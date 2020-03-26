@@ -15,6 +15,7 @@ body, html {
   grid-template-columns: repeat(8,1fr);
   grid-column-gap: 2vmin;
   grid-row-gap: 2vmin;
+  margin: 0 3vmin 0 3vmin;
   /* padding: 0px; */
 }
 
@@ -31,6 +32,7 @@ body, html {
   filter: grayscale(100%);
 }
 
+/* hovering over the sub images will turn the images back to normal */
 .subImage:hover {
   filter: none;
   /* transform: translateY(3); */
@@ -45,11 +47,13 @@ body, html {
   padding-bottom: 1vmin;
 }
 
+/* hoving over the navigation bar produces solid black border underneath */
 .navigation:hover {
   border-bottom: 0.5vmin solid black;
   transition: all 2s;
 }
 
+/* subtle title animation */
 .title {
   margin-top: 11vmin;
   margin-bottom: 11vmin;
@@ -68,23 +72,26 @@ body, html {
   margin: 0;
 }
 
-.sectionTitle {
-}
-
 
 .text {
   font-size: 2vmin;
   line-height: 2;
-  /* margin: 0 3vmin 0 3vmin; */
   text-align: justify;
+  margin: 0;
 }
 
 .section {
   display: grid;
   grid-column-end: span 4;
+  /* align-self: center; */
+
 }
 
+/* button styling */
 .button {
+  display: grid;
+  align-self: end;
+  max-height: 7vmin;
   background-color: white;
   border: 0.5vmin solid black;
   color: black;
@@ -97,6 +104,9 @@ body, html {
 }
 
 .button:hover {
+  display: grid;
+  align-self: end;
+
   background-color: black;
   /* border: 0.5vmin solid black; */
   color: white;
