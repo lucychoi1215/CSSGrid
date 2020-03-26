@@ -91,15 +91,16 @@ body, html {
 .button {
   display: grid;
   align-self: end;
-  max-height: 7vmin;
+  /* max-height: 10vmin; */
   background-color: white;
   border: 0.5vmin solid black;
   color: black;
-  padding: 0.5vmin 4vmin;
+  padding: 2vmin 6vmin;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 3vmin;
+  font-size: 2vmin;
+
   /* margin-top: 15vmin; */
 }
 
@@ -110,11 +111,11 @@ body, html {
   background-color: black;
   /* border: 0.5vmin solid black; */
   color: white;
-  padding: 0.5vmin 4vmin;
+  padding: 2vmin 6vmin;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 3vmin;
+  font-size: 2vmin;
   cursor: pointer;
   /* margin-top: 15vmin; */
 
